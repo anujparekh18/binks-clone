@@ -1,0 +1,25 @@
+.rec.rec-dot {
+  width: 16px;
+  height: 16px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: none;
+  border-radius: 99;
+  margin: 0 3px 0.5rem;
+  margin-right: 4px;
+  margin-left: 4px;
+  width: 1em;
+  height: 1em;
+}
+.rec.rec-dot_active {
+  background: white;
+  box-shadow: none;
+}
+
+.rec.rec-dot:hover {
+  box-shadow: none;
+}
+
+.rec.rec-dot:focus {
+  box-shadow: none;
+  outline: none;
+}
