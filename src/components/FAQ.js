@@ -74,7 +74,7 @@ function FAQ() {
         </h3>
 
         {list.map((que, index) => (
-          <div className="px-16 w-full" key={index}>
+          <div className="px-2 md:px-10 lg:px-16 w-full" key={index}>
             <button
               className="flex items-center justify-between focus:outline-none w-full px-5 leading-loose text-lg sm:text-xl tracking-wide"
               onClick={() => handleOpenChange(que.id)}

@@ -10,8 +10,8 @@ function Footer() {
   return (
     <div>
       <div className="bg-athensGray pb-28 w-full">
-        <div className="flex justify-between mx-auto max-w-6xl px-4 lg:px-0">
-          <div className="pt-12 w-1/2">
+        <div className="flex flex-col md:flex-row justify-between mx-auto max-w-6xl px-2 md:px-4 lg:px-0">
+          <div className="pt-12 w-full md:w-1/2">
             <div className="w-40 h-24">
               <img src={binksLogoBlack} alt="binkslogoblack" />
             </div>
@@ -42,7 +42,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 md:flex w-1/2 text-base">
+          <div className="grid grid-cols-2 w-full md:flex md:w-1/2 text-base">
             <div className="pt-14 w-1/3 space-y-4">
               <div className="font-semibold text-hibiscus-500">Menu</div>
               <div className="font-light text-eastbay">Home</div>
