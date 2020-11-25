@@ -11,6 +11,9 @@
 # production
 /build
 
+# siteID
+.netlify/state.json
+
 # misc
 .DS_Store
 .env.local
