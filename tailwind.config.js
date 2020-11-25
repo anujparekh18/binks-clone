@@ -39,6 +39,11 @@ module.exports = {
       cascade: '#91AEA4',
       karry: '#FFEBD9',
       cupid: '#F4BACF',
+      insta1: '#E71E4C',
+      insta2: '#FB774E',
+      fb: '#067AEB',
+      in: '#01669E',
+      twitter: '#1DA1F2',
       hibiscus: {
         50: '#FBF4F7',
         100: '#F8E9EE',
@@ -772,6 +777,7 @@ module.exports = {
     'focus-visible',
     'active',
     'disabled',
+    'after',
   ],
   variants: {
     accessibility: ['responsive', 'focus-within', 'focus'],
@@ -929,7 +935,7 @@ module.exports = {
     transitionDuration: ['responsive'],
     transitionProperty: ['responsive'],
     transitionTimingFunction: ['responsive'],
-    translate: ['responsive', 'hover', 'focus'],
+    translate: ['responsive', 'hover', 'focus', 'group-hover'],
     userSelect: ['responsive'],
     verticalAlign: ['responsive'],
     visibility: ['responsive'],

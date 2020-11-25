@@ -1,5 +1,10 @@
 import React from 'react';
 import binksLogoBlack from '../assets/images/binkslogoblack.png';
+import { ReactComponent as Pinterest } from '../assets/images/pinterest.svg';
+import { ReactComponent as Instagram } from '../assets/images/insta.svg';
+import { ReactComponent as Facebook } from '../assets/images/facebook.svg';
+import { ReactComponent as LinkedIn } from '../assets/images/linkedin.svg';
+import { ReactComponent as Twitter } from '../assets/images/twitter.svg';
 
 function Footer() {
   return (
@@ -12,6 +17,28 @@ function Footer() {
             </div>
             <div className="text-base font-light leading-7 tracking-wider text-suvaGray pt-5 px-5">
               Online boutique for busy independent women
+            </div>
+            <div class="p-4 flex justify-start space-x-3">
+              <div class="rounded-md box-border cursor-pointer bg-gradient-to-tr from-insta1 to-insta2 group w-10 h-10 space-y-4 overflow-hidden">
+                <Instagram className="w-4 h-10 mx-3 transform group-hover:-translate-y-16 duration-700" />
+                <Instagram className="w-4 h-10 mx-3 transform group-hover:-translate-y-14 duration-700" />
+              </div>
+              <div class="rounded-md box-border cursor-pointer bg-red-600 group w-10 h-10 space-y-4 overflow-hidden">
+                <Pinterest className="w-4 h-10 mx-3 transform group-hover:-translate-y-16 duration-700" />
+                <Pinterest className="w-4 h-10 mx-3 transform group-hover:-translate-y-14 duration-700" />
+              </div>
+              <div class="rounded-md box-border cursor-pointer bg-fb group w-10 h-10 space-y-4 overflow-hidden">
+                <Facebook className="w-4 h-10 mx-3 transform group-hover:-translate-y-16 duration-700" />
+                <Facebook className="w-4 h-10 mx-3 transform group-hover:-translate-y-14 duration-700" />
+              </div>
+              <div class="rounded-md box-border cursor-pointer bg-in group w-10 h-10 space-y-4 overflow-hidden">
+                <LinkedIn className="w-4 h-10 mx-3 transform group-hover:-translate-y-16 duration-700" />
+                <LinkedIn className="w-4 h-10 mx-3 transform group-hover:-translate-y-14 duration-700" />
+              </div>
+              <div class="rounded-md box-border cursor-pointer bg-twitter group w-10 h-10 space-y-4 overflow-hidden">
+                <Twitter className="w-4 h-10 mx-3 transform group-hover:-translate-y-16 duration-700" />
+                <Twitter className="w-4 h-10 mx-3 transform group-hover:-translate-y-14 duration-700" />
+              </div>
             </div>
           </div>
 
