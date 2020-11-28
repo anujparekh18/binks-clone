@@ -18,6 +18,12 @@ module.exports = {
       xl: '1280px',
       '2xl': '1536px',
     },
+    extend: {
+      transitionProperty: {
+        height: 'height',
+        spacing: 'margin, padding',
+      },
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',

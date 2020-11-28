@@ -23,50 +23,50 @@ function InstaPhotos() {
           @CraftedByBinks
         </button>
         <div className="flex justify-center cursor-pointer">
-          <div className="flex group space-y-4 justify-center items-center">
+          <div className="flex group justify-center items-end space-y-2 overflow-hidden">
             <img
               className="relative group-hover:opacity-20"
               src={insta1}
               alt="insta1"
             />
             <img
-              className="h-12 w-12 opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-400 absolute"
+              className="h-10 w-10 opacity-0 group-hover:opacity-100 transform group-hover:-translate-y-28 ease-out duration-500 absolute"
               src={instaGrey}
               alt="instagrey1"
             />
           </div>
-          <div className="flex group space-y-4 justify-center items-center">
+          <div className="flex group justify-center items-end">
             <img
               className="relative group-hover:opacity-20"
               src={insta2}
               alt="insta2"
             />
             <img
-              className="h-12 w-12 opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-400 absolute"
+              className="h-10 w-10 opacity-0 group-hover:opacity-100 transform group-hover:-translate-y-28 ease-out duration-500 absolute"
               src={instaGrey}
               alt="instagrey2"
             />
           </div>
-          <div className="flex group space-y-4 justify-center items-center">
+          <div className="flex group justify-center items-end">
             <img
               className="relative group-hover:opacity-20"
               src={insta3}
               alt="insta3"
             />
             <img
-              className="h-12 w-12 opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-400 absolute"
+              className="h-10 w-10 opacity-0 group-hover:opacity-100 transform group-hover:-translate-y-28 ease-out duration-500 absolute"
               src={instaGrey}
               alt="instagrey3"
             />
           </div>
-          <div className="flex group space-y-4 justify-center items-center">
+          <div className="flex group justify-center items-end">
             <img
               className="relative group-hover:opacity-20"
               src={insta4}
               alt="insta4"
             />
             <img
-              className="h-12 w-12 opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-400 absolute"
+              className="h-10 w-10 opacity-0 group-hover:opacity-100 transform group-hover:-translate-y-28 ease-out duration-500 absolute"
               src={instaGrey}
               alt="instagrey4"
             />
